@@ -8,4 +8,4 @@ In this project user has to create the clone of the given below image. The proje
 - CSS
 
 ### Expected Output
-![output image](http://127.0.0.1:5500/Html-and-Css-projects/Profile-card-ui-design/index.html)
+![link](http://127.0.0.1:5500/Html-and-Css-projects/Profile-card-ui-design/index.html)
