@@ -1,0 +1,169 @@
+/* google fonts poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: "poppins", sans-serif;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    background-size: cover;
+    border-radius: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 370px;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 0 5px 10px rgb(35, 32, 32);
+    border-radius: 25px;
+    padding: 25px;
+    position: relative;
+
+}
+#profile-card::before{
+    contain: "deepak";
+    background-color: rgb(8, 8, 154);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0 ;
+    position: relative;
+
+}
+
+.profile-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 100%;
+    border-style: solid rgb(192, 23, 23);
+    
+
+}
+
+.text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+
+}
+.job{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(52, 46, 46);
+}
+.media-button{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    margin: 0px 8px;
+    background-color: rgb(150, 150, 255);
+    text-decoration: none;
+    /* border-style: solid;
+    border-right: slategray; */
+
+}
+#link1{
+    background-color: rgb(2, 2, 105);
+}
+#link3{
+    background-color: rgb(255, 76, 130);
+}
+#link2{
+    background-color: rgb(70, 70, 252);
+}
+#link4{
+    background-color: rgb(255, 0, 0);
+}#link5{
+    background-color: rgb(104, 67, 253);
+}
+.buttons{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.button{
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    padding: 8px 24px;
+    margin: 0 10px;
+    background-color: rgb(32, 9, 244);
+transition: all 3.0s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(240, 127, 230);
+}
+
+.analytic{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.data{
+    margin: 0px 8px;
+    /* margin-top: 20px; */
+    color: rgb(82, 69, 69);
+    padding: 0 17px;
+    border-right: 2px solid rgb(129, 125, 125);
+}
+.data:last-child{
+    border: none;
+}
+.data i{
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#i1{
+    color: rgb(255, 2, 2);
+}
+#i2{
+    color: rgb(3, 165, 30);
+}
+#i3{
+    color: rgb(0, 200, 255);
+}
