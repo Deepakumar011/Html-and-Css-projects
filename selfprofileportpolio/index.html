@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <title>Self potpolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+<body>
+  <header class="header">
+    <img src="assets/images.png" alt="our main logo" class="logo" />
+
+    <nav class="navbar">
+      <ul class="navbar-lists">
+        <li><a href="/home.html" class="navbar-link home-link">Home</a></li>
+        <li>
+          <a href="about.html" class="navbar-link about-link">About</a>
+        </li>
+        <li>
+          <a class="navbar-link service-link" href="service.html">Services</a>
+        </li>
+        <li>
+          <a class="navbar-link portfolio-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a class="navbar-link contact-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mobile-navbar-btn">
+      <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+      <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+    </div>
+    <div  class="search-bar">
+      <input type="text" id="search-input" placeholder="Search...">
+      <a href="searching.html"><button id="search-btn">Search</button></a>
+  </div>
+
+  </header>
+
+
+  <!-- ======================================== 
+            Our Main Hero Section Start  
+      ========================================  -->
+  <main>
+<!--     
+  <div class="results">
+    <div id="results"></div>
+</div> -->
+    <section class="section-hero section">
+      <div class="container grid grid-two-column">
+        <div class="section-hero-data">
+          <p class="hero-top-data">Hi, I'm 👋</p>
+          <h1 class="hero-heading"> Deepak kumar</h1>
+          <p class="hero-para">
+            I am a Full Stack Developer with a passion for building responsive and user-friendly web applications.
+            <span class="more-text" id="moreText">
+              Skilled in frontend technologies like HTML, CSS, Tailwind, Bootstrap, JavaScript, and React.js, as well as
+              backend technologies. With a B.Tech in Computer Science and continuous learning through platforms like
+              Physics Wallah, I strive to create highly scalable and efficient solutions.
+              I enjoy working on both the frontend and backend, and am always eager to learn new tools and technologies.
+              Let's create something amazing together</span>
+          </p>
+
+          <div>
+            <a href="#" class="btn hireme-btn">Hire me</a>
+            <!-- more taxt button -->
+            <button onclick="toggleText()"  id="readMoreBtn" class="btn hireme-btn">Read More</button>
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- hero section right side  -->
+        <div class="section-hero-image">
+          <picture>
+            <!-- <source srcset="assets/image.jpeg" type="image/webp" /> -->
+            <!-- <source class="hero-img" 
+            srcset="assets/img.jpg" type="image/jpg" /> -->
+            <img src="assets/img.jpg" alt="this is me thapa technical" class="hero-img" />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ======================================== 
+            Our Bio-Data Section Start  
+      ========================================  -->
+
+  <section class="section-biodata section">
+    <div class="container grid grid-two-column">
+      <div class="bio-image">
+        <img src="assets/image.jpeg" alt="my bio data image" />
+      </div>
+      <!-- bio right side data  -->
+      <div class="bio-data">
+        <h2 class="common-heading">my bio-data</h2>
+        <p>
+
+          Hello! I'm Deepak Kumar, a Full Stack Developer with a specialization in Frontend Development. My technical
+          skill set includes HTML, CSS, Tailwind, Bootstrap, React.js, JavaScript, Git, GitHub, MySQL, Node.js, Excel,
+          VS Code, and version control systems.<span class="more-text" id="hiddenText">
+            I am passionate about creating efficient and responsive web applications
+          that provide seamless user experiences.
+            I hold a B.Tech in Computer Science and Engineering from Dr. APJ Abdul Kalam Technical University, Lucknow
+            (VCTM College, Aligarh), graduating with a 7.4 CGPA. Currently, I’m advancing my full stack development
+            skills through the PW Skills Online Lab platform.
+
+            Key Projects:
+            Personal Portfolio Website – Developed using HTML, CSS, JavaScript, React, and Bootstrap, showcasing my
+            projects and skills. Version control was managed using Git and GitHub.
+            E-commerce Web Application – A scalable and responsive online store built with React.js, featuring product
+            listings, a shopping cart, and authentication.
+            Task Manager App – A full-stack application using React and MySQL to manage tasks with a user-friendly
+            interface.
+            Hailing from Aligarh, I’m committed to growing as a developer and am always eager to take on new challenges
+            and learn the latest technologies. Let’s work together to build amazing web applications!
+          </span>
+
+        </p>
+
+        <div> <button id="readMoreBtns" class="btn hireme-btn">Read More</button></div>
+        <br />
+        <p>
+          itaque voluptas nesciunt cum dolorum. Quidem sed id repellat facere
+          quod placeat praesentium.
+        </p>
+        <div class="bio-data-stats">
+          <div class="bio-stats">
+            <h3>Design</h3>
+            <div class="bio-progress-bar">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>HTML</h3>
+            <div class="bio-progress-bar bio-progress-2">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>CSS</h3>
+            <div class="bio-progress-bar bio-progress-3">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>JavaScript</h3>
+            <div class="bio-progress-bar bio-progress-4">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>React & vite React.js</h3>
+            <div class="bio-progress-bar bio-progress-5">
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="bio-data-btn">
+          <a href="#" class="btn">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+            Our portfolio Section Start  
+      ========================================  -->
+  <section class="section section-portfolio" id="portfolio-section">
+    <div class="container">
+      <h2 class="common-heading">Latest Works</h2>
+      <p>
+        Explore our latest works showcasing innovative design and cutting-edge technology.Each project reflects our commitment to creating impactful, user-centric digital solutions."
+        
+      </p>
+
+  
+    </div>
+
+    <div class="p-btns">
+      <div class="btn p-btn" data-btn-num="1">Website</div>
+      <!-- <div class="btn p-btn" data-btn-num="1"><a href="https://github.com/Deepakumar011/pw-projects.git">pro source</a></div> -->
+      <div class="btn p-btn" data-btn-num="2"><a href="https://youtube.com/@deepakchaudhary8689?si=bt81pKSzZIo1-zSY"
+          target="_self">Youtube</a></div>
+      <div class="btn p-btn" data-btn-num="3">Design</div>
+    </div>
+
+    <div class="container grid grid-three-column portfolio-images">
+      <div class="img-overlay p-btn--1">
+        <img src="assets\images (5).jpeg" alt="my works" />
+        <div class="overlay">
+          <a href="http://charcounter.thapaonlineclass.com/" target="_thapa" class="common-heading">Project 1</a>
+        </div>
+      </div>
+
+      <div class="img-overlay p-btn--3">
+        <img src="assets\images (6).jpeg" alt="my works" />
+        <div class="overlay">
+          <a href="http://charcounter.thapaonlineclass.com/" target="_thapa" class="common-heading">Project 2
+          </a>
+        </div>
+      </div>
+
+      <div class="img-overlay p-btn--1">
+        <img src="assets\images (1).jpeg" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 3</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1 p-btn--2">
+        <img src="assets\images (2).jpeg" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 4</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--2">
+        <img src="assets\images (3).jpeg" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 5</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1">
+        <img src="assets\images (4).jpeg" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 6</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================================== 
+            Our work counter Section Start  
+      ========================================  -->
+
+  <section class="section section-work-data">
+    <div class="container grid grid-four-column">
+      <div>
+        <h2 class="counter-numbers" data-number="2000">10+</h2>
+        <p>project completed</p>
+      </div>
+      <div>
+        <h2 class="counter-numbers" data-number="6000">5+</h2>
+        <p>Happy Clients</p>
+      </div>
+      <div>
+        <h2 class="counter-numbers" data-number="5000">10+</h2>
+        <p>cups of coffee</p>
+      </div>
+      <div>
+        <h2 class="counter-numbers" data-number="3000">16+</h2>
+        <p>real professionals</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- ======================================== 
+            Our Services  Section Start  
+      ========================================  -->
+
+  <section class="section section-services">
+    <div class="container">
+      <h2 class="common-heading">Services Offers</h2>
+      <p>
+        "App interfaces are crafted to deliver intuitive and seamless user experiences through thoughtful design. <span class="more-text" id="sectionservices">They
+        combine visual elements and functionality to ensure users can navigate and interact with ease, enhancing overall
+        satisfaction."</span>
+      </p>
+      <div> <button class="btn hireme-btn">Read More</button></div>
+    </div>
+
+    <!-- services offers card  -->
+    <div class="container grid grid-three-column">
+      <div class="service-box">
+        <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+        <h3>Web Design</h3>
+        <p>
+          "Web development involves building and maintaining websites, focusing on functionality,performance, and user experience. It encompasses both frontend and backend tasks, ensuring seamless interaction between the user
+."
+        </p><br>
+        <div> <button class="btn hireme-btn"><a href="">Read More</a></button></div>
+      </div>
+
+      <div class="service-box">
+        <ion-icon name="logo-react" class="service-icon"></ion-icon>
+        <h3>web development</h3>
+        <p>
+          "Web development involves building and maintaining websites, focusing on functionality,performance, and user experience. It encompasses both frontend and backend tasks, ensuring seamless interaction between the user interface and server-side processes."
+        </p><br>
+        <div> <button class="btn hireme-btn"><a href="">Read More</a></button></div>
+      </div>
+
+      <div class="service-box">
+        <!-- <ion-icon name="camera-sharp" class="service-icon"></ion-icon> -->
+        <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+        <h3>photography</h3>
+        <p>"Photography captures moments, emotions, and stories through the lens, transforming the ordinary into the extraordinary. Each shot is a blend of light, composition, and perspective, creating visual narratives that resonate."
+        </p><br>
+        <div> <button class="btn hireme-btn"><a href="/"> Read More</a></button></div>
+      </div>
+
+      <div class="service-box">
+        <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+        <h3>Mobile Apps</h3>
+        <p>
+          "Mobile app development focuses on creating intuitive, high-performance applications tailored for smartphones and tablets. It emphasizes seamless user experiences and optimized functionality across diverse platforms."
+        </p>
+         <div> <button class="btn hireme-btn"><a href="">Read More</a></button></div>
+      </div>
+
+      <div class="service-box">
+        <ion-icon name="globe-sharp" class="service-icon"></ion-icon>
+        <h3>apps interface</h3>
+        <p>"App interfaces are crafted to deliver intuitive and seamless user experiences through thoughtful design.They combine visual elements and functionality to ensure users can navigate and interact with ease, enhancingoverall satisfaction." <div> <button class="btn hireme-btn"><a href="/">Read More</a></button></div>
+      </div>
+
+      <div class="service-box">
+        <ion-icon name="images-sharp" class="service-icon"></ion-icon>
+        <h3>graphic design</h3>
+        <p>
+          "Web development involves building and maintaining websites, focusing on functionality,performance, and user experience. It encompasses both frontend and backend tasks, ensuring seamless interaction between the user interface and server-side processes."
+        </p>
+        <div> <button class="btn hireme-btn"><a href="">Read More</a></button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+            Our Resume  Section Start  
+      ========================================  -->
+
+  <section class="section section-resume">
+    <div class="container grid grid-two-column">
+      <!-- resume left side  -->
+      <div class="resume-img">
+        <img class="lazy-img" src="assets/deepak kumar resuma.jpg" data-src="images/biodata.jpg" alt="resume image"
+          loading="lazy" />
+      </div>
+
+      <!-- resume right side  -->
+      <div class="resume-data">
+        <h2 class="common-heading">resume</h2>
+        <p class="resume-para">My Work Experience</p>
+
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>My Linked Profile</h3>
+            <div class="grid grid-two-column">
+              <p>
+                <ion-icon name="business-outline"></ion-icon>Deepak Kumar
+              </p>
+              <p><ion-icon name="location-outline"></ion-icon> UP, India</p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">fulltime</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              <span>April 2020 - Present </span>
+            </p>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>Online My Git & Github Profile</h3>
+            <div class="grid grid-two-column">
+              <p>
+                <ion-icon name="business-outline"></ion-icon>Deepak kumar
+              </p>
+              <!-- <p><ion-icon name="location-outline"></ion-icon> up, India</p> -->
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">fulltime</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              <span>April 2021 - Present </span>
+            </p>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>My Certificates </h3>
+            <div class="grid grid-two-column">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> DEEPAK KUMAR,
+
+              </p>
+              <!-- <p><ion-icon name="location-outline"></ion-icon> UP, India</p> -->
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">fulltime</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              <span>April 2020 - Present </span>
+            </p>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>Online Full Stack Development Course </h3>
+            <div class="grid grid-two-column">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> deepak kumar,
+                "Enroll in the comprehensive Full Stack Development course offered by Physics Wallah. Gain hands-on
+                experience with both frontend and backend technologies, and build real-world applications with expert
+                guidance."
+
+              </p>
+              <p><ion-icon name="location-outline"></ion-icon> Up, India</p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">fulltime</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              <span>April 2023 - Present </span>
+            </p>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <div class="resume-data-bottom-subsection">
+          <p class="resume-para">Education</p>
+          <div class="resume-data-subsection margin-small">
+            <div class="resume-data-left">
+              <h3>B.tech (Computer Science & Engineering)</h3>
+              <div class="grid grid-two-column">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon>
+                  Dr. A.P.J Abdul Kalam Technical University LUCKNOW .(VCTM,Aligarh) .Bachelors of Technology(Computer Science & Engineering)-SGPA :7.4,Aug 2020- july 2024</p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon>
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">Bachelor</p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon>
+                <span>Aug 2020- july 2024 - Present </span>
+              </p>
+            </div>
+          </div>
+          <!-- end -->
+          <div class="resume-data-subsection margin-small">
+            <div class="resume-data-left">
+              <h3>10th Standard(Math, Science,) & Intermediate in (PCM)</h3>
+              <div class="grid grid-two-column">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon>
+                  UP Board,S.O.P.K.S.S INT Coll PURENI ISM ALIGARH .Intermediate in (PCM),52% (2019- 2020).10th Standard(Math, Science,),62% (2018- 2019).
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon>Aligarh, India
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">Bachelor</p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon>
+                <span>2018-2024
+                   </span>
+              </p>
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================================== 
+            Our Freelancing   Section Start  
+      ========================================  -->
+
+  <section class="section section-freelancing">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>I am <span>available</span> for freelancing</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+        voluptates similique nulla vitae natus
+      </p>
+      <a href="/contact.html" class="btn">HIRE ME</a>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+            Our contact us   Section Start  
+      ========================================  -->
+
+  <section class="section section-contact">
+    <div class="container">
+      <h2 class="common-heading">Contact Us</h2>
+    </div>
+
+    <div class="section-contact-main contact-container">
+      <form action="https://formspree.io/f/xknyvwjo" method="POST">
+        <div class="grid grid-two-column">
+          <div>
+            <label for="username"></label>
+            <input type="text" name="username" placeholder="Username" id="username" required autocomplete="off" />
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="demo@mail.com" id="email" autocomplete="off" required />
+          </div>
+        </div>
+
+        <div>
+          <label for="subject"></label>
+          <input type="text" name="subject" placeholder="subject" id="subject" autocomplete="off" required />
+        </div>
+        <div>
+          <label for="textarea"></label>
+          <textarea name="textarea" id="textarea" cols="30" rows="10" autocomplete="off"
+            placeholder="Write your message" required></textarea>
+        </div>
+
+        <div>
+          <input type="submit" name="submit" id="submit" class="btn" value="send message" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+            Our Footer   Section Start  
+      ========================================  -->
+  <footer class="section-footer section">
+    <div class="container grid grid-four-column">
+      <div class="f-about">
+        <h3>About</h3>
+        <p>
+          We have tested a number of registry fix and clean utilities and
+          present our top 3 list on our site for your convenience. Hope you
+          like it.
+        </p>
+        <div> <button onclick="toggleText()" id="readMoreBtns" class="btn hireme-btn">Read More</button></div>
+      </div>
+      <!-- end -->
+      <div class="f-links">
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">services</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a>
+          </li>
+
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end  -->
+      <div class="f-services">
+        <h3>Services</h3>
+        <ul>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web design</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web development</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Mern Project</a>
+          </li>
+
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Online Classes</a>
+          </li>
+          <li>
+            <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Youtube Course</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end  -->
+      <div class="f-address">
+        <h3>Have a Questions?</h3>
+        <address>
+          <div>
+            <p>
+              <span><ion-icon name="location-outline"></ion-icon></span>
+              UP, India
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <span><ion-icon name="call-outline"></ion-icon></span>
+              <a href="tel:+919876543211"> +91 9548645750 </a>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <span><ion-icon name="mail-outline"></ion-icon></span>
+              <a href="deepakchaudhary954864@gmail.com">
+                deepakchaudhary954864@gmail.com
+              </a>
+            </p>
+          </div>
+        </address>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="f-social-icons">
+        <a href="https://www.instagram.com/deepakchaudhary95484/?igsh=Yjk0bTdibjFrZGtt" target="_blank">
+          <ion-icon class="icons" name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+          <ion-icon name="logo-linkedin" class="icons"></ion-icon>
+        </a>
+
+        <a href="https://github.com/Deepakumar011" target="_blank">
+          <ion-icon class="icons" name="logo-github"></ion-icon>
+        </a>
+      </div>
+
+      <div class="f-credits">
+        <p>
+          Copyright ©2024 All rights reserved | This template is made with ❤
+          by Deepak kumar.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script>
+
+
+</script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
+
+</html>

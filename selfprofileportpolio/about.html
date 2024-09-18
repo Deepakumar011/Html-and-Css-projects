@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/images.png" alt="our main logo" class="logo" />
+    
+        <nav class="navbar">
+          <ul class="navbar-lists">
+            <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+            <li>
+              <a href="about.html" class="navbar-link about-link">About</a>
+            </li>
+            <li>
+              <a class="navbar-link service-link" href="service.html">Services</a>
+            </li>
+            <li>
+              <a class="navbar-link portfolio-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="navbar-link contact-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+          <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search...">
+          <a href="searching.html"><button id="search-btn">Search</button></a>
+      </div>
+    
+      </header>
+ <!-- ======================================== 
+            Our Bio-Data Section Start  
+      ========================================  -->
+
+      <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+          <div class="bio-image">
+            <img src="assets/image.jpeg" alt="my bio data image" />
+          </div>
+          <!-- bio right side data  -->
+          <div class="bio-data">
+            <h2 class="common-heading">my bio-data</h2>
+            <p>
+    
+              Hello! I'm Deepak Kumar, a Full Stack Developer with a specialization in Frontend Development. My technical
+              skill set includes HTML, CSS, Tailwind, Bootstrap, React.js, JavaScript, Git, GitHub, MySQL, Node.js, Excel,
+              VS Code, and version control systems.<span class="more-text" id="hiddenText">
+                I am passionate about creating efficient and responsive web applications
+              that provide seamless user experiences.
+                I hold a B.Tech in Computer Science and Engineering from Dr. APJ Abdul Kalam Technical University, Lucknow
+                (VCTM College, Aligarh), graduating with a 7.4 CGPA. Currently, I’m advancing my full stack development
+                skills through the PW Skills Online Lab platform.
+    
+                Key Projects:
+                Personal Portfolio Website – Developed using HTML, CSS, JavaScript, React, and Bootstrap, showcasing my
+                projects and skills. Version control was managed using Git and GitHub.
+                E-commerce Web Application – A scalable and responsive online store built with React.js, featuring product
+                listings, a shopping cart, and authentication.
+                Task Manager App – A full-stack application using React and MySQL to manage tasks with a user-friendly
+                interface.
+                Hailing from Aligarh, I’m committed to growing as a developer and am always eager to take on new challenges
+                and learn the latest technologies. Let’s work together to build amazing web applications!
+              </span>
+    
+            </p>
+    
+            <div> <button id="readMoreBtns" class="btn hireme-btn">Read More</button></div>
+            <br />
+            <p>
+              itaque voluptas nesciunt cum dolorum. Quidem sed id repellat facere
+              quod placeat praesentium.
+            </p>
+            <div class="bio-data-stats">
+              <div class="bio-stats">
+                <h3>Design</h3>
+                <div class="bio-progress-bar">
+                  <span>80%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>HTML</h3>
+                <div class="bio-progress-bar bio-progress-2">
+                  <span>90%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>CSS</h3>
+                <div class="bio-progress-bar bio-progress-3">
+                  <span>90%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>JavaScript</h3>
+                <div class="bio-progress-bar bio-progress-4">
+                  <span>80%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>React & vite React.js</h3>
+                <div class="bio-progress-bar bio-progress-5">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="bio-data-btn">
+              <a href="#" class="btn">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+<!--  footer  -->
+      <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+          <div class="f-about">
+            <h3>About</h3>
+            <p>
+              We have tested a number of registry fix and clean utilities and
+              present our top 3 list on our site for your convenience. Hope you
+              like it.
+            </p>
+            <div> <button onclick="toggleText()" id="readMoreBtns" class="btn hireme-btn">Read More</button></div>
+          </div>
+          <!-- end -->
+          <div class="f-links">
+            <h3>Links</h3>
+            <ul>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a>
+              </li>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a>
+              </li>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">services</a>
+              </li>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a>
+              </li>
+    
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end  -->
+          <div class="f-services">
+            <h3>Services</h3>
+            <ul>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web design</a>
+              </li>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web development</a>
+              </li>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Mern Project</a>
+              </li>
+    
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Online Classes</a>
+              </li>
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Youtube Course</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end  -->
+          <div class="f-address">
+            <h3>Have a Questions?</h3>
+            <address>
+              <div>
+                <p>
+                  <span><ion-icon name="location-outline"></ion-icon></span>
+                  UP, India
+                </p>
+              </div>
+    
+              <div>
+                <p>
+                  <span><ion-icon name="call-outline"></ion-icon></span>
+                  <a href="tel:+919876543211"> +91 9548645750 </a>
+                </p>
+              </div>
+    
+              <div>
+                <p>
+                  <span><ion-icon name="mail-outline"></ion-icon></span>
+                  <a href="deepakchaudhary954864@gmail.com">
+                    deepakchaudhary954864@gmail.com
+                  </a>
+                </p>
+              </div>
+            </address>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="f-social-icons">
+            <a href="https://www.instagram.com/deepakchaudhary95484/?igsh=Yjk0bTdibjFrZGtt" target="_blank">
+              <ion-icon class="icons" name="logo-instagram"></ion-icon>
+            </a>
+    
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <ion-icon name="logo-linkedin" class="icons"></ion-icon>
+            </a>
+    
+            <a href="https://github.com/Deepakumar011" target="_blank">
+              <ion-icon class="icons" name="logo-github"></ion-icon>
+            </a>
+          </div>
+    
+          <div class="f-credits">
+            <p>
+              Copyright ©2024 All rights reserved | This template is made with ❤
+              by Deepak kumar.
+            </p>
+          </div>
+        </div>
+      </footer>
+    
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
+</html>
